@@ -1,0 +1,27 @@
+
+#include <stdio.h>
+#include<math.h>
+int main() {
+int a,b,c,d=0,count=0,p=0;
+scanf("%d",&a);
+c=a;
+while(c!=0){
+    c=c/10;
+    count++;
+   
+}
+b=a;
+while(b!=0){
+d=b%10;
+p=p+pow(d,count);
+b=b/10;
+}
+if(p==a)
+printf("amstrong");
+else
+printf("not a amstrong");
+}
+
+
+
+  
