@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    char g;
+	scanf("%c ",&g);
+	if(g=='e'||g=='E')
+	    printf("execellent");
+	    else if(g=='v'||g=='V')
+	    printf("very good");
+	    else if(g=='g'||g=='G')
+	    printf("GOOD");
+	    else if(g=='a'||g=='A')
+	    printf("AVERAGE");
+	    else if(g=='f'||g=='F')
+	    printf("fail");
+	    else
+	    printf("invalid grade");
+	
+
+}
+
