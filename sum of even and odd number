@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+//#include<math.h>
+int main() {
+int a,b,i,es=0,os=0;
+scanf("%d",&a);
+for( i=0;i<=a;i++){
+ if(i%2==0)
+   es=es+i;
+}
+for( i=0;i<=a;i++){
+ if(i%2!=0)
+   os=os+i;
+}
+printf("%d",es);
+printf("\n");
+printf("%d",os);
+}
+
+
+
+
+  
