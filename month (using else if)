@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main() {
+    int g;
+	scanf("%d ",&g);
+	if(g==1)
+	    printf("january 31");
+	    else if(g==2)
+	    printf("febraury 28");
+	    else if(g==3)
+	    printf("march 31");
+	    else if(g==4)
+        printf("april 30");
+	    else if(g==5)
+	    printf("may 31");      
+	    else if(g==6)
+	    printf("june 30");
+	    else if(g==7)
+	    printf("july 31");
+	    else if(g==8)
+	    printf("august 31");
+	    else if(g==9)
+	    printf("may 31");
+	    else if(g==10)
+	    printf("september 30");
+	    else if(g==11)
+	    printf("october 31");
+	    else if(g==12)
+	    printf("december 31");
+	    else
+	    printf("invalid number");
+	
+
+}
+
