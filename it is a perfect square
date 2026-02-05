@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+    int a,i;
+    scanf("%d",&a);
+    i=sqrt(a);
+    if(i*i==a)
+    printf("it is a perfect square nuber");
+    else
+    printf("it is not a perfect square");
+}
