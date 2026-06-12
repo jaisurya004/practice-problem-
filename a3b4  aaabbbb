@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    char a[100];
+    int b[100];
+    int i = 0;
+
+    // Read until EOF OR until the array is full (i < 100)
+    while (i < 100 && scanf(" %c %d", &a[i], &b[i]) == 2) {
+        i++;
+    }
+
+    // Print each character repeated b[j] times
+    for (int j = 0; j < i; j++) {
+        for (int w = 0; w < b[j]; w++) {
+            printf("%c", a[j]);
+        }
+    }
+
+    return 0;
+}
